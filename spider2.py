@@ -21,6 +21,6 @@ try:
             f.close()
         print('success 2')
 except:
-    print("erroe")
+    print("error")
 
 
