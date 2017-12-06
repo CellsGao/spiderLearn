@@ -22,5 +22,3 @@ try:
         print('success 2')
 except:
     print("error")
-
-
