@@ -14,6 +14,9 @@ try:
             break
         else:
             print(sibling.name)  # 'and'字符串的sibling.name返回none
+
+    print(soup.prettify())
+    print(soup.a.prettify())
 except:
     print('error')
     print(r.status_code)
